@@ -1,7 +1,7 @@
 def happy_new_year
   countdown = 10
   until countdown == 0
-    puts "#{countdown}"
+    puts countdown
     countdown= countdown - 1  
 end
 
